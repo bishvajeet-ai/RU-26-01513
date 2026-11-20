@@ -1,12 +1,9 @@
-# To-Do List Application (PS No. 12)
-# Simple version: tasks are kept in a list and saved in todo.txt
-# Each task is stored as a small list:  [title, status]
-# Each line in todo.txt looks like:     status|title     (example: Pending|Buy books)
+# To-Do List Application (PS No. 12
 
 FILE_NAME = "todo.txt"
 
 
-# ---------- File handling ----------
+# File handling
 
 def load_tasks():
     """Read tasks from todo.txt and return them as a list."""
@@ -35,7 +32,7 @@ def save_tasks(tasks):
     file.close()
 
 
-# ---------- Main functions ----------
+# Main functions
 
 def add_task(tasks):
     title = input("Task: ").strip()
@@ -87,7 +84,7 @@ def delete_task(tasks):
     print("Task", number, "deleted. Tasks left:", len(tasks))
 
 
-# ---------- Menu loop ----------
+# Menu loop
 
 tasks = load_tasks()
 
