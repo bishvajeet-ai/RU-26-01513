@@ -1,4 +1,4 @@
-# To-Do List Application (PS No. 12
+# To-Do List Application (PS No. 12)
 
 FILE_NAME = "todo.txt"
 
